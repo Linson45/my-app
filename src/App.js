@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './demo-logo.jpg';
 import './App.css';
 import { Layout, Menu, Breadcrumb, Modal, Drawer, Button,Form,Input } from 'antd';
 import { UploadOutlined, UserOutlined, VideoCameraOutlined } from '@ant-design/icons';
@@ -27,7 +27,7 @@ function App() {
         >
           <div className="logo" />
           <div style={{ marginTop: "55px" }}>
-            Logo
+            <img src={logo} width={"100%"}/>
           </div>
           <Menu theme="dark" mode="inline" defaultSelectedKeys={['1']}>
           <Menu.Item key="1" icon={<VideoCameraOutlined />}>
